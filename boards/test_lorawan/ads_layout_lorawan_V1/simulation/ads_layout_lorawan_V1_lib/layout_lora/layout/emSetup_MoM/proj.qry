@@ -1,0 +1,16 @@
+#Momentum: B.2023.20.105 (*) built: Mar 10 2023 
+#Momentum Date and Time: Mon May 22 22:01:43 2023
+
+Overall database status : 1 (file present and valid)
+
+Frequency range : from 0.6 GHz to 1 GHz.
+
+Requested frequency range : from 0.6 GHz to 1 GHz.
+
+Individual status fields : (0 = FALSE, 1 = TRUE)
+ File exists             : 1
+ Substrates match        : 1
+ Frequency-range matches : 1
+
+Corresponding potentialpath : F:\Documents\ADS/
+Corresponding potentialname : F:\Documents\ADS\\substrates\0001.sdb

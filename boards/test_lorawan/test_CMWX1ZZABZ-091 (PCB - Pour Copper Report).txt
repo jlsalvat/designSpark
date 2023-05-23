@@ -1,0 +1,37 @@
+Pour Copper Report
+------------------
+
+Report Written:     Monday, May 22, 2023
+Design Path:        F:\Documents\GitHub\designSpark\boards\test_lorawan\test_CMWX1ZZABZ-091.pcb
+Design Title:       
+Created:            19/05/2023 12:15:02
+Last Saved:         22/05/2023 20:56:52
+Editing Time:       2497 min
+Units:              mm (precision 2)
+
+U1.27 at 524.77,539.43 on layer Top Copper has no thermal spokes
+U1.44 at 516.35,532.20 on layer Top Copper has no thermal spokes
+U1.49 at 519.47,530.90 on layer Top Copper has no thermal spokes
+U2.2 at 522.09,520.32 on layer Top Copper has no thermal spokes
+U4.2 at 499.32,540.07 on layer Top Copper has no thermal spokes
+CONN1.6 at 542.92,530.54 on layer Top Copper has no thermal spokes
+Via at 520.70,520.32 on layer Top Copper has no thermal spokes
+Via at 523.24,530.90 on layer Top Copper has no thermal spokes
+Via at 530.75,525.11 on layer Top Copper has no thermal spokes
+Via at 524.89,511.95 on layer Top Copper has no thermal spokes
+Via at 520.70,535.90 on layer Top Copper has no thermal spokes
+Via at 520.70,533.32 on layer Top Copper has no thermal spokes
+Via at 523.27,533.32 on layer Top Copper has no thermal spokes
+Via at 523.27,536.05 on layer Top Copper has no thermal spokes
+Via at 494.96,550.95 on layer Top Copper has no thermal spokes
+Via at 501.14,550.95 on layer Top Copper has no thermal spokes
+Via at 506.57,550.91 on layer Top Copper has no thermal spokes
+Via at 512.74,550.91 on layer Top Copper has no thermal spokes
+Via at 517.88,550.95 on layer Top Copper has no thermal spokes
+Via at 524.06,550.95 on layer Top Copper has no thermal spokes
+Via at 529.26,550.95 on layer Top Copper has no thermal spokes
+Via at 535.44,550.95 on layer Top Copper has no thermal spokes
+Via at 538.46,551.01 on layer Top Copper has no thermal spokes
+Via at 544.63,551.01 on layer Top Copper has no thermal spokes
+
+End Of Report.

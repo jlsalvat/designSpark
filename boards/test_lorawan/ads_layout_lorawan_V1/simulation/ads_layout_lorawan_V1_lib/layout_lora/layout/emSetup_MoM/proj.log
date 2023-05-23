@@ -1,0 +1,109 @@
+License checkout took 0.038 sec
+License checkout took 0.022 sec
+Momentum MomEngine_64 2023.20.105 (*) built: Mar 10 2023
+Copyright  1992 - 2023 Keysight Technologies
+Simulation started on: Mon May 22 22:01:39 2023
+Simulation Mode: uW
+Substrate to be computed from 0.6 GHz to 1 GHz!
+Substrate calculation started
+.........|.........|.........|.........| 
+Substrate calculation finished
+Using the minimal snap distance of 0.0004 mm
+(4 layout resolution points) for layout healing.
+Layout simplification started
+.........|.........|.........|.........| 
+Layout simplification finished
+Generating mesh at 1 GHz...
+S-parameter simulation
+S-parameter simulation started
+...initializing
+...expanding thick conductors
+...extracting layout
+...analyzing ports
+...reducing mesh
+Automatic selection: direct compressed matrix solver
+Using multi-threading (12 threads)
+Matrix size: 4581 (reduced: 1340)
+
+--- WARNING -------------------------------------------------------------------
+
+Port 1 does not have an explicit reference pin, 
+S-parameters may become unphysical at higher frequencies.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The size of the plus pin for S-parameter port 2 is electrically large 
+above 0.895973 GHz, S-parameters may become unphysical.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+Port 2 does not have an explicit reference pin, 
+S-parameters may become unphysical at higher frequencies.
+
+-------------------------------------------------------------------------------
+Simulation temperature: 298.15 K
+Adaptive frequency sweep started
+Simulation frequency [1] = 600 MHz
+...loading Green functions
+...creating Basis sections
+...allocating interaction matrix
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+
+--- WARNING -------------------------------------------------------------------
+
+Accuracy can be lost due to matrix compression, you can rerun the simulation 
+with reduced compression level or with the direct dense solver to verify the results.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+S-parameter data show unphysical behavior for certain frequencies.
+Cause        : - electrically large port size
+               - electrically large via using lumped model
+               - mesh density is too coarse
+               - matrix solver compression is too high
+               - inaccurate (high frequency) calibration
+
+-------------------------------------------------------------------------------
+Simulation frequency [2] = 1 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:   0.0 % of frequency range covered
+Simulation frequency [3] = 866.667 MHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [4] = 733.333 MHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [5] = 955.556 MHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive: 100.0 % of frequency range covered
+S-parameter simulation finished
+Simulation finished on: Mon May 22 22:02:24 2023
+The simulation results have been saved in dataset "layout_lora_MomUW".

@@ -1,0 +1,29 @@
+Forward Design Changes Report
+-----------------------------
+
+Report Written:     Saturday, May 20, 2023
+Design Path:        F:\Documents\GitHub\designSpark\boards\test_lorawan\test_CMWX1ZZABZ-091.pcb
+Design Title:       
+Created:            19/05/2023 12:15:02
+Last Saved:         20/05/2023 20:19:33
+Editing Time:       1926 min
+Units:              mm (precision 2)
+
+Disconnected pin "J1.5" from net "N0101".
+Disconnected pin "J1.6" from net "N0101".
+Disconnected pin "J1.7" from net "N0101".
+Disconnected pin "J1.8" from net "N0101".
+Disconnected pin "J1.9" from net "N0101".
+Disconnected pin "R9.2" from net "N0101".
+
+Deleted net "N0101".
+
+Connected pin "J1.5" to net "GND".
+Connected pin "J1.6" to net "GND".
+Connected pin "J1.7" to net "GND".
+Connected pin "J1.8" to net "GND".
+Connected pin "J1.9" to net "GND".
+Connected pin "R9.2" to net "GND".
+
+
+End Of Report.

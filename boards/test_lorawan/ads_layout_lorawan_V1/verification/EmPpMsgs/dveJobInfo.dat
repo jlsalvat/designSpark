@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=ads_layout_lorawan_V1_lib:layout_lora:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

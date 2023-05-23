@@ -1,0 +1,192 @@
+Design Rule Check Report
+------------------------
+
+Report Written:     Monday, May 22, 2023
+Design Path:        F:\Documents\GitHub\designSpark\boards\test_lorawan\test_CMWX1ZZABZ-091.pcb
+Design Title:       
+Created:            19/05/2023 12:15:02
+Last Saved:         22/05/2023 20:54:25
+Editing Time:       2492 min
+Units:              mm (precision 2)
+
+
+Results
+=======
+
+Pad to Shape error (P-C) at (519.87 530.50) on layer "Top Copper".
+    Error between Component Pad U1.49 (Net 'GND') and Component Shape U1, Gap is 0.00 needs to be 0.30.
+Track to Shape Error (T-C) between (520.67 530.90) and (520.27 530.90) on Layer "Top Copper".
+    Error between Component Shape U1 and Track (Net 'GND'), Gap is 0.24 needs to be 0.30.
+Track to Shape error (T-C) at (519.47 530.90) on layer "Top Copper".
+    Error between Component Shape U1 and Track (Net 'GND'), Gap is 0.00 needs to be 0.30.
+Track to Shape error (T-C) at (519.47 530.90) on layer "Top Copper".
+    Error between Component Shape U1 and Track (Net 'GND'), Gap is 0.00 needs to be 0.30.
+Via to Shape Error (V-C) between (520.37 530.90) and (520.27 530.90) on Layer "Top Copper".
+    Error between Component Shape U1 and Via (Net 'GND'), Gap is 0.09 needs to be 0.30.
+Shape to Shape Error (C-C) between (518.67 531.70) and (518.66 531.70) on Layer "Top Copper".
+    Error between Component Shape U1 and Poured Shape (Net 'GND'), Gap is 0.00.
+Track to Pad Error (T-P) between (504.63 542.29) and (504.19 542.29) on Layer "Top Copper".
+    Error between Component Pad R8.1 (Net 'VCC') and Track (Net 'SCL'), Gap is 0.30 needs to be 0.30.
+Track to Pad Error (T-P) between (504.63 542.29) and (504.19 542.29) on Layer "Top Copper".
+    Error between Component Pad R8.1 (Net 'VCC') and Track (Net 'SCL'), Gap is 0.30 needs to be 0.30.
+Pad to Via Error (P-V) between (504.63 542.29) and (504.49 542.29) on Layer "[Top]".
+    Error between Component Pad R8.1 (Net 'VCC') and Via (Net 'SCL'), Gap is 0.15 needs to be 0.30.
+Track to Track Error (T-T) between (524.73 540.33) and (525.57 540.99) on Layer "Top Copper".
+    Error between Track (Net 'GND') and Track (Net 'ANT'), Gap is 0.27 needs to be 0.30.
+Track to Track Error (T-T) between (526.32 540.24) and (525.57 540.99) on Layer "Top Copper".
+    Error between Track (Net 'GND') and Track (Net 'ANT'), Gap is 0.26 needs to be 0.30.
+Via to Board Error (V-B) between (544.93 551.01) and (545.84 551.01) on Layer "[All]".
+    Error between Via (Net 'GND') and Board, Gap is 0.85 needs to be 1.00.
+Via to Board Error (V-B) between (494.57 545.91) and (493.52 545.91) on Layer "[All]".
+    Error between Via (Net 'GND') and Board, Gap is 0.98 needs to be 1.00.
+Track to Track Error (T-T) between (524.08 510.69) and (524.55 511.16) on Layer "Top Copper".
+    Error between Track (Net '+5V') and Track (Net 'USB_DN'), Gap is 0.27 needs to be 0.30.
+Gap in Net "BP" between (504.24,526.90) and (504.24,520.40) 
+    BP.
+Gap in Net "GND" between (496.62,510.95) and (495.86,510.67) 
+    GND.
+Gap in Net "GND" between (531.66,533.45) and (530.17,533.51) 
+    GND.
+Gap in Net "GND" between (494.90,544.99) and (535.89,538.84) 
+    GND.
+Gap in Net "GND" between (494.90,544.99) and (540.68,539.45) 
+    GND.
+Gap in Net "GND" between (494.90,544.99) and (502.94,505.87) 
+    GND.
+Gap in Net "GND" between (497.46,539.74) and (511.09,543.08) 
+    GND.
+Gap in Net "GND" between (522.60,504.94) and (529.41,505.78) 
+    GND.
+Gap in Net "GND" between (497.46,539.74) and (511.09,540.12) 
+    GND.
+Gap in Net "GND" between (535.28,525.28) and (536.28,521.16) 
+    GND.
+Gap in Net "GND" between (494.90,544.99) and (541.19,541.25) 
+    GND.
+Gap in Net "GND" between (514.80,532.20) and (514.10,531.83) 
+    GND.
+Gap in Net "GND" between (496.62,505.67) and (494.90,504.69) 
+    GND.
+Gap in Net "GND" between (494.90,504.69) and (494.65,508.33) 
+    GND.
+Gap in Net "GND" between (494.65,547.89) and (526.38,538.27) 
+    GND.
+Gap in Net "GND" between (500.84,526.56) and (501.51,531.62) 
+    GND.
+Gap in Net "GND" between (501.51,531.62) and (503.14,531.88) 
+    GND.
+Gap in Net "GND" between (514.10,531.83) and (515.98,528.44) 
+    GND.
+Gap in Net "GND" between (494.90,544.99) and (495.84,521.22) 
+    GND.
+Gap in Net "GND" between (494.90,544.99) and (506.16,506.89) 
+    GND.
+Gap in Net "GND" between (516.15,524.36) and (517.26,518.47) 
+    GND.
+Gap in Net "GND" between (494.90,544.99) and (536.91,538.09) 
+    GND.
+Gap in Net "GND" between (497.46,537.14) and (496.70,522.25) 
+    GND.
+Gap in Net "GND" between (495.84,544.30) and (496.70,541.22) 
+    GND.
+Gap in Net "GND" between (496.62,510.95) and (501.25,516.12) 
+    GND.
+Gap in Net "GND" between (497.46,537.14) and (501.51,534.31) 
+    GND.
+Gap in Net "GND" between (496.70,541.22) and (503.54,540.92) 
+    GND.
+Gap in Net "GND" between (503.12,522.24) and (505.46,517.78) 
+    GND.
+Gap in Net "GND" between (496.62,510.95) and (505.65,514.95) 
+    GND.
+Gap in Net "GND" between (505.65,514.95) and (506.76,511.53) 
+    GND.
+Gap in Net "GND" between (497.46,539.74) and (509.51,536.88) 
+    GND.
+Gap in Net "GND" between (503.14,531.88) and (509.53,530.22) 
+    GND.
+Gap in Net "GND" between (505.46,517.78) and (511.08,513.85) 
+    GND.
+Gap in Net "GND" between (511.08,513.85) and (511.08,510.03) 
+    GND.
+Gap in Net "GND" between (513.09,523.28) and (512.20,525.57) 
+    GND.
+Gap in Net "GND" between (513.14,507.40) and (513.09,517.89) 
+    GND.
+Gap in Net "GND" between (494.65,547.89) and (518.34,541.25) 
+    GND.
+Gap in Net "GND" between (525.33,518.82) and (531.50,510.65) 
+    GND.
+Gap in Net "GND" between (531.50,503.00) and (543.51,501.57) 
+    GND.
+Gap in Net "GND" between (533.40,532.69) and (535.37,531.71) 
+    GND.
+Gap in Net "GND" between (535.37,531.71) and (536.89,531.31) 
+    GND.
+Gap in Net "GND" between (522.37,527.39) and (522.61,526.23) 
+    GND.
+Gap in Net "GND" between (525.33,518.82) and (523.11,517.67) 
+    GND.
+Gap in Net "GND" between (523.11,517.67) and (519.96,518.47) 
+    GND.
+Gap in Net "GND" between (519.96,518.47) and (518.22,515.55) 
+    GND.
+Single pin net SWO on J2.8 at 509.72,511.86
+Dangling Track from (503.30,514.35) to (503.94,514.35) on layer Top Copper
+Dangling Track from (503.86,514.27) to (503.94,514.35) on layer Bottom Copper
+Dangling Track from (509.72,514.36) to (509.72,514.05) on layer Top Copper
+Dangling Track from (539.27,519.28) to (539.35,519.20) on layer Top Copper
+Dangling Track from (529.98,537.43) to (530.21,537.66) on layer Top Copper
+Dangling Track from (540.04,528.25) to (540.17,528.41) on layer Top Copper
+Dangling Track from (522.98,545.21) to (523.11,545.08) on layer Top Copper
+
+Number of errors found : 67
+
+
+Settings
+========
+
+
+Spacings
+
+=========
+
+Tracks        Yes
+Pads and Vias Yes
+Shapes        Yes
+Text          Yes
+Board         Yes
+Drills        Yes
+Components    No
+
+
+Manufacturing
+
+==============
+
+Drill Breakout                  No
+Drill Backoff                   No
+Silkscreen Overlap              No
+Copper Text In Board            No
+Min Track Width                 No
+Min Annular Ring                No
+Min Paste Size                  No
+Vias In Pads                    No
+Unplated Vias                   No
+Unplated Pads With Inner Tracks No
+
+
+Nets
+
+=====
+
+Net Completion               Yes
+Dangling Tracks              Yes
+Net Track Length Differences No
+Nets without Components      No
+Nets on No Connect pins      No
+Nets on No Connect pins      No
+
+
+
+End Of Report.
