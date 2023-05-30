@@ -1,0 +1,66 @@
+==============================================================================
+
+                  ------ MOMENTUM STATISTICS (MW mode) ------
+
+              Momentum MomEngine_64 2023.20.105 (*) built: Mar 10 2023
+                           Thu May 25 18:08:36 2023
+
+==============================================================================
+
+
+------------------------------------------------------------------------------
+MESH
+------------------------------------------------------------------------------
+ Frequency          : 10 GHz
+
+ Rectangular cells  : 2649
+ Quadrangular cells : 1169
+ Triangular cells   : 958
+ Via cells          : 369
+
+ Edge currents      : 9062
+
+------------------------------------------------------------------------------
+SOLVER                        USER TIME      ELAPSED TIME      MEMORY         
+PROCESSES                      (h:m:s)          (h:m:s)         (MB)          
+------------------------------------------------------------------------------
+
+SIMULATION SET-UP
+-----------------
+ Initialization           |     0: 0: 0   |     0: 0: 0   |     70.06   
+ Ports analysis           |     0: 0: 0   |     0: 0: 0   |      0.05   
+ Mesh processing          |     0: 0: 2   |     0: 0: 2   |    174.38   
+
+ Matrix size : 20888
+ Reduced matrix size : 16381
+ Estimated process size : 3495.73 MB
+
+ Simulation temperature : 298.15 K
+
+1. SIMULATION FREQUENCY = 0 Hz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      2.16   
+ Basis creation           |     0: 0: 6   |     0: 0: 4   |    437.16   
+ Matrix load              |     0:18:13   |     0: 1:46   |   1389.76   
+ Matrix solve             |     0: 4:20   |     0: 0:47   |   1512.98   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+2. SIMULATION FREQUENCY = 10 GHz 
+-------------------------
+ Green functions          |     0: 0: 2   |     0: 0: 0   |      0.00   
+ Matrix load              |     0:17:55   |     0: 1:37   |      0.00   
+ Matrix solve             |     0: 4: 5   |     0: 0:42   |      1.35   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 2   |     0: 0: 1   |      0.03   
+
+3. SIMULATION FREQUENCY = 8 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0:17:52   |     0: 1:36   |      0.77   
+ Matrix solve             |     0: 4: 8   |     0: 0:43   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 1   |     0: 0: 0   |      0.00   
+
+4. SIMULATION FREQUENCY = 6 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   

@@ -1,0 +1,58 @@
+Bill of Materials
+-----------------
+
+
+Report Written: Friday, May 26, 2023
+Design Path:    F:\Documents\GitHub\designSpark\boards\test_lorawan\test_CMWX1ZZABZ-091.pcb
+Design Title:
+Created:        19/05/2023 12:15:02
+Last Saved:     26/05/2023 09:54:29
+Editing Time:   4184 min
+Units:          mm (precision 2)
+
+Component                     Value                      Qty   Name
+-------------------------------------------------------------------
+1k0_cms                                                    1   R1                  
+1uF_cms                                                    1   C3                  
+                                                           1   C4                  
+2k0_cms                                                    1   R5                  
+                                                           1   R10                 
+4-176891-4                                                 1   J2                  
+10k_cms                                                    1   R6                  
+                                                           1   R7                  
+                                                           1   R8                  
+100k_cms                                                   1   R9                  
+100nF_cms                                                  1   C5                  
+330_Ohm_cms                                                1   R2                  
+                                                           1   R3                  
+                                                           1   R4                  
+BUZZER_9032_CMS                                            1   BUZ1                
+CMWX1ZZABZ-091                                             1   U1                  
+CON HE14 2ps droit                                         1   X1                  
+                                                           1   X2                  
+CON HE14 3P droit                                          1   SV4                 
+                                                           1   SV5                 
+CON HE14 4P droit                                          1   SV1                 
+CONN_SIL_8                                                 1   CONN1               
+CON_GROVE_coudé                                            1   SV3                 
+C_1206                                                     1   C1                  
+                                                           1   C2                  
+C_all                                                      1   C6                  
+                                                           1   C7                  
+                                                           1   C8                  
+                                                           1   C9                  
+                                                           1   C10                 
+FDV301N                                                    1   Q1                  
+HTU21D                                                     1   U4                  
+LED 3 COLOR 3528                                           1   LED2                
+LED_0805                                                   1   LED1                
+LTC4054ES5-4.2#PBF                                         1   U2                  
+SWITCH-MOMENTARY-2PTH                                      1   SW2                 
+SWITCH_2P_1.27mm                                           1   SW1                 
+TC2117-3.3VDBTR                                            1   Vreg1               
+TEMT6000X01                                                1   U7                  
+U.FL-R-SMT(10)                                             1   J3                  
+USB CMS_conB                                               1   J1                  
+USBLC6-2SC6                                                1   U5                  
+-------------------------------------------------------------------
+                                                          42

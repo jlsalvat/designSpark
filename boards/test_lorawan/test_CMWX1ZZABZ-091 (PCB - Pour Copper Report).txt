@@ -1,37 +1,38 @@
 Pour Copper Report
 ------------------
 
-Report Written:     Monday, May 22, 2023
+Report Written:     Friday, May 26, 2023
 Design Path:        F:\Documents\GitHub\designSpark\boards\test_lorawan\test_CMWX1ZZABZ-091.pcb
 Design Title:       
 Created:            19/05/2023 12:15:02
-Last Saved:         22/05/2023 20:56:52
-Editing Time:       2497 min
+Last Saved:         26/05/2023 08:27:04
+Editing Time:       3984 min
 Units:              mm (precision 2)
 
+CONN1.6 at 542.92,530.54 on layer Bottom Copper has no thermal spokes
+Via at 499.80,506.10 on layer Bottom Copper has no thermal spokes
+U1.3 at 519.17,527.39 on layer Top Copper has too few spokes (can fit 1, requires 2)
+U1.7 at 522.37,527.39 on layer Top Copper has too few spokes (can fit 1, requires 2)
 U1.27 at 524.77,539.43 on layer Top Copper has no thermal spokes
 U1.44 at 516.35,532.20 on layer Top Copper has no thermal spokes
 U1.49 at 519.47,530.90 on layer Top Copper has no thermal spokes
+J2.5 at 514.60,509.35 on layer Top Copper has no thermal spokes
+J2.7 at 514.60,510.60 on layer Top Copper has too few spokes (can fit 1, requires 2)
 U2.2 at 522.09,520.32 on layer Top Copper has no thermal spokes
 U4.2 at 499.32,540.07 on layer Top Copper has no thermal spokes
+J1.5 at 527.28,509.29 on layer Top Copper has too few spokes (can fit 1, requires 2)
+U5.2 at 524.89,513.01 on layer Top Copper has too few spokes (can fit 1, requires 2)
 CONN1.6 at 542.92,530.54 on layer Top Copper has no thermal spokes
+C8.2 at 527.84,546.10 on layer Top Copper has too few spokes (can fit 1, requires 2)
 Via at 520.70,520.32 on layer Top Copper has no thermal spokes
-Via at 523.24,530.90 on layer Top Copper has no thermal spokes
+Via at 519.17,525.75 on layer Top Copper has too few spokes (can fit 1, requires 2)
 Via at 530.75,525.11 on layer Top Copper has no thermal spokes
+Via at 498.04,540.07 on layer Top Copper has too few spokes (can fit 1, requires 2)
 Via at 524.89,511.95 on layer Top Copper has no thermal spokes
-Via at 520.70,535.90 on layer Top Copper has no thermal spokes
-Via at 520.70,533.32 on layer Top Copper has no thermal spokes
-Via at 523.27,533.32 on layer Top Copper has no thermal spokes
-Via at 523.27,536.05 on layer Top Copper has no thermal spokes
-Via at 494.96,550.95 on layer Top Copper has no thermal spokes
-Via at 501.14,550.95 on layer Top Copper has no thermal spokes
-Via at 506.57,550.91 on layer Top Copper has no thermal spokes
-Via at 512.74,550.91 on layer Top Copper has no thermal spokes
-Via at 517.88,550.95 on layer Top Copper has no thermal spokes
-Via at 524.06,550.95 on layer Top Copper has no thermal spokes
-Via at 529.26,550.95 on layer Top Copper has no thermal spokes
-Via at 535.44,550.95 on layer Top Copper has no thermal spokes
-Via at 538.46,551.01 on layer Top Copper has no thermal spokes
-Via at 544.63,551.01 on layer Top Copper has no thermal spokes
+Via at 527.18,547.21 on layer Top Copper has too few spokes (can fit 1, requires 2)
+Via at 499.80,506.10 on layer Top Copper has no thermal spokes
+Via at 538.60,544.90 on layer Top Copper has too few spokes (can fit 1, requires 2)
+Via at 522.25,526.13 on layer Top Copper has no thermal spokes
+Via at 512.85,509.35 on layer Top Copper has too few spokes (can fit 1, requires 2)
 
 End Of Report.

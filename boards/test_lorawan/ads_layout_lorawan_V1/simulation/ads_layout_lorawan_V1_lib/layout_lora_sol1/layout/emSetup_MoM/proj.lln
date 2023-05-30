@@ -1,0 +1,15 @@
+BEGIN_SUBSTRATE
+5 __BOTTOM
+4 __ExpandLayer__BOTTOM_8
+3 __SubstrateLayer1
+2 __ExpandLayer__TOP_5
+1 __ExpandLayer__TOP_11
+0 __TOP
+END_SUBSTRATE
+BEGIN_MASK
+10 antenne
+5 cond_cond2
+4 silkscreenBottom
+3 bottom
+2 top
+END_MASK

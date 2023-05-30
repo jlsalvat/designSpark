@@ -10,7 +10,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2023-05-22T20:03:49Z");
+	set(ddoId, "FileModifiedDateAndTime", "2023-05-23T16:52:02Z");
 	set(ddoId, "FileCreatedDateAndTime", "2011-02-04T14:25:47Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
@@ -98,9 +98,9 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -1.8);
-		 set(axisID, "MaxValue", -0.4);
-		 set(axisID, "StepSize", 0.2);
+		 set(axisID, "MinValue", -3);
+		 set(axisID, "MaxValue", 0);
+		 set(axisID, "StepSize", 0.5);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -238,9 +238,9 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 150265361);
 // Graphical Object:
-	set(goId0, "Right", 9789);
+	set(goId0, "Right", 9742);
 	set(goId0, "Bottom", 5211);
-	set(goId0, "Left", 5156);
+	set(goId0, "Left", 5016);
 	set(goId0, "Top", 2125);
 	set(goId0, "Zrot", 0.0);
 	set(goId0, "Yrot", 0.0);
@@ -254,8 +254,8 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "FillColor", 0);
 // Plot base...
 	set(goId0, "LegendOnOff", TRUE);
-	set(goId0, "LeftMargin", 719);
-	set(goId0, "RightMargin", 164);
+	set(goId0, "LeftMargin", 859);
+	set(goId0, "RightMargin", 117);
 	set(goId0, "TopMargin", 125);
 	set(goId0, "BottomMargin", 586);
 // Plot Title...
@@ -278,9 +278,9 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 600000000);
-		 set(axisID, "MaxValue", 1000000000);
-		 set(axisID, "StepSize", 50000000);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.2);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -301,9 +301,9 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -6);
-		 set(axisID, "MaxValue", 0);
-		 set(axisID, "StepSize", 1);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.5);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -549,9 +549,9 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1360879413);
 // Graphical Object:
-	set(goId0, "Right", 4664);
+	set(goId0, "Right", 4617);
 	set(goId0, "Bottom", 8461);
-	set(goId0, "Left", 31);
+	set(goId0, "Left", -109);
 	set(goId0, "Top", 5375);
 	set(goId0, "Zrot", 0.0);
 	set(goId0, "Yrot", 0.0);
@@ -565,8 +565,8 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "FillColor", 0);
 // Plot base...
 	set(goId0, "LegendOnOff", TRUE);
-	set(goId0, "LeftMargin", 719);
-	set(goId0, "RightMargin", 164);
+	set(goId0, "LeftMargin", 859);
+	set(goId0, "RightMargin", 117);
 	set(goId0, "TopMargin", 125);
 	set(goId0, "BottomMargin", 586);
 // Plot Title...
@@ -589,9 +589,9 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 600000000);
-		 set(axisID, "MaxValue", 1000000000);
-		 set(axisID, "StepSize", 50000000);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.2);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -612,9 +612,9 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -6);
-		 set(axisID, "MaxValue", 0);
-		 set(axisID, "StepSize", 1);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.5);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -752,7 +752,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 441093306);
 // Graphical Object:
-	set(goId0, "Right", 9789);
+	set(goId0, "Right", 9742);
 	set(goId0, "Bottom", 8461);
 	set(goId0, "Left", 5016);
 	set(goId0, "Top", 5375);
@@ -769,7 +769,7 @@ goId0 = get_new(pageId, "Plot");
 // Plot base...
 	set(goId0, "LegendOnOff", TRUE);
 	set(goId0, "LeftMargin", 859);
-	set(goId0, "RightMargin", 164);
+	set(goId0, "RightMargin", 117);
 	set(goId0, "TopMargin", 125);
 	set(goId0, "BottomMargin", 586);
 // Plot Title...
@@ -792,9 +792,9 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 600000000);
-		 set(axisID, "MaxValue", 1000000000);
-		 set(axisID, "StepSize", 50000000);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.2);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -815,9 +815,9 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -0.7);
-		 set(axisID, "MaxValue", -0.1);
-		 set(axisID, "StepSize", 0.1);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.5);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -962,7 +962,7 @@ goId0 = get_new(pageId, "Plot");
 // Graphical Object:
 	set(goId0, "Right", 4664);
 	set(goId0, "Bottom", 5586);
-	set(goId0, "Left", -62);
+	set(goId0, "Left", -156);
 	set(goId0, "Top", 2333);
 	set(goId0, "Zrot", 0.0);
 	set(goId0, "Yrot", 0.0);
@@ -976,7 +976,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "FillColor", 0);
 // Plot base...
 	set(goId0, "LegendOnOff", TRUE);
-	set(goId0, "LeftMargin", 812);
+	set(goId0, "LeftMargin", 906);
 	set(goId0, "RightMargin", 164);
 	set(goId0, "TopMargin", 292);
 	set(goId0, "BottomMargin", 586);
@@ -1023,9 +1023,9 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -65);
-		 set(axisID, "MaxValue", -35);
-		 set(axisID, "StepSize", 5);
+		 set(axisID, "MinValue", -200);
+		 set(axisID, "MaxValue", 200);
+		 set(axisID, "StepSize", 100);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -1163,9 +1163,9 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 519272321);
 // Graphical Object:
-	set(goId0, "Right", 9789);
+	set(goId0, "Right", 9742);
 	set(goId0, "Bottom", 5586);
-	set(goId0, "Left", 5063);
+	set(goId0, "Left", 5016);
 	set(goId0, "Top", 2500);
 	set(goId0, "Zrot", 0.0);
 	set(goId0, "Yrot", 0.0);
@@ -1179,8 +1179,8 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "FillColor", 0);
 // Plot base...
 	set(goId0, "LegendOnOff", TRUE);
-	set(goId0, "LeftMargin", 812);
-	set(goId0, "RightMargin", 164);
+	set(goId0, "LeftMargin", 859);
+	set(goId0, "RightMargin", 117);
 	set(goId0, "TopMargin", 125);
 	set(goId0, "BottomMargin", 586);
 // Plot Title...
@@ -1203,9 +1203,9 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 600000000);
-		 set(axisID, "MaxValue", 1000000000);
-		 set(axisID, "StepSize", 50000000);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.2);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -1226,9 +1226,9 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -30);
-		 set(axisID, "MaxValue", 30);
-		 set(axisID, "StepSize", 10);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.5);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -1474,9 +1474,9 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 1773014093);
 // Graphical Object:
-	set(goId0, "Right", 4664);
+	set(goId0, "Right", 4617);
 	set(goId0, "Bottom", 8836);
-	set(goId0, "Left", -62);
+	set(goId0, "Left", -109);
 	set(goId0, "Top", 5750);
 	set(goId0, "Zrot", 0.0);
 	set(goId0, "Yrot", 0.0);
@@ -1490,8 +1490,8 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "FillColor", 0);
 // Plot base...
 	set(goId0, "LegendOnOff", TRUE);
-	set(goId0, "LeftMargin", 812);
-	set(goId0, "RightMargin", 164);
+	set(goId0, "LeftMargin", 859);
+	set(goId0, "RightMargin", 117);
 	set(goId0, "TopMargin", 125);
 	set(goId0, "BottomMargin", 586);
 // Plot Title...
@@ -1514,9 +1514,9 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 600000000);
-		 set(axisID, "MaxValue", 1000000000);
-		 set(axisID, "StepSize", 50000000);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.2);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -1537,9 +1537,9 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -30);
-		 set(axisID, "MaxValue", 30);
-		 set(axisID, "StepSize", 10);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.5);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -1677,9 +1677,9 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 2076469884);
 // Graphical Object:
-	set(goId0, "Right", 9789);
+	set(goId0, "Right", 9742);
 	set(goId0, "Bottom", 8836);
-	set(goId0, "Left", 4969);
+	set(goId0, "Left", 5016);
 	set(goId0, "Top", 5750);
 	set(goId0, "Zrot", 0.0);
 	set(goId0, "Yrot", 0.0);
@@ -1693,8 +1693,8 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "FillColor", 0);
 // Plot base...
 	set(goId0, "LegendOnOff", TRUE);
-	set(goId0, "LeftMargin", 906);
-	set(goId0, "RightMargin", 164);
+	set(goId0, "LeftMargin", 859);
+	set(goId0, "RightMargin", 117);
 	set(goId0, "TopMargin", 125);
 	set(goId0, "BottomMargin", 586);
 // Plot Title...
@@ -1717,9 +1717,9 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 600000000);
-		 set(axisID, "MaxValue", 1000000000);
-		 set(axisID, "StepSize", 50000000);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.2);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -1740,9 +1740,9 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -120);
-		 set(axisID, "MaxValue", -70);
-		 set(axisID, "StepSize", 10);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.5);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -2123,8 +2123,8 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 //Polar axis...
 	if (axisID != NULL) {
 		set(axisID, "DisplayAllIndependentData", TRUE);
-		set(axisID, "IndepStart", 600000000.0);
-		set(axisID, "IndepStop", 1000000000.0);
+		set(axisID, "IndepStart", -1.0);
+		set(axisID, "IndepStop", 1.0);
 	}
 //Smith chart axis...
 	if (axisID != NULL) {
@@ -2161,8 +2161,8 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 //Polar axis...
 	if (axisID != NULL) {
 		set(axisID, "DisplayAllIndependentData", TRUE);
-		set(axisID, "IndepStart", 600000000.0);
-		set(axisID, "IndepStop", 1000000000.0);
+		set(axisID, "IndepStart", -1.0);
+		set(axisID, "IndepStop", 1.0);
 	}
 //Smith chart axis...
 	if (axisID != NULL) {
@@ -2310,8 +2310,8 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 //Polar axis...
 	if (axisID != NULL) {
 		set(axisID, "DisplayAllIndependentData", TRUE);
-		set(axisID, "IndepStart", 600000000.0);
-		set(axisID, "IndepStop", 1000000000.0);
+		set(axisID, "IndepStart", -1.0);
+		set(axisID, "IndepStop", 1.0);
 	}
 //Smith chart axis...
 	if (axisID != NULL) {
@@ -2348,8 +2348,8 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 //Polar axis...
 	if (axisID != NULL) {
 		set(axisID, "DisplayAllIndependentData", TRUE);
-		set(axisID, "IndepStart", 600000000.0);
-		set(axisID, "IndepStop", 1000000000.0);
+		set(axisID, "IndepStart", -1.0);
+		set(axisID, "IndepStop", 1.0);
 	}
 //Smith chart axis...
 	if (axisID != NULL) {
@@ -2497,8 +2497,8 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 //Polar axis...
 	if (axisID != NULL) {
 		set(axisID, "DisplayAllIndependentData", TRUE);
-		set(axisID, "IndepStart", 600000000.0);
-		set(axisID, "IndepStop", 1000000000.0);
+		set(axisID, "IndepStart", -1.0);
+		set(axisID, "IndepStop", 1.0);
 	}
 //Smith chart axis...
 	if (axisID != NULL) {
@@ -2535,8 +2535,8 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 //Polar axis...
 	if (axisID != NULL) {
 		set(axisID, "DisplayAllIndependentData", TRUE);
-		set(axisID, "IndepStart", 600000000.0);
-		set(axisID, "IndepStop", 1000000000.0);
+		set(axisID, "IndepStart", -1.0);
+		set(axisID, "IndepStop", 1.0);
 	}
 //Smith chart axis...
 	if (axisID != NULL) {
@@ -2893,9 +2893,9 @@ goId0 = get_new(pageId, "Equation");
 ddWinId = get_new(ddsId, "Window", 192, 108, 1536, 864);
 	set(ddWinId, "Object", ddoId);
 	set(ddWinId, "CurrentPage", 898464475);
-	set(ddWinId, "PageViewRect_898464475", list(-5286, 8357, 9486, 369));
-	set(ddWinId, "PageViewRect_1914221859", list(-3403, 9042, 11151, 1172));
-	set(ddWinId, "PageViewRect_505789063", list(-3053, 8409, 11401, 593));
+	set(ddWinId, "PageViewRect_898464475", list(-667, 6567, 6909, 2470));
+	set(ddWinId, "PageViewRect_1914221859", list(-3404, 9043, 11151, 1172));
+	set(ddWinId, "PageViewRect_505789063", list(-3057, 8412, 11402, 593));
 	set(ddWinId, "PageViewRect_1138417399", list(-4, 5819, 13195, -1318));
 	set(ddWinId, "Frame", list(192, 108, 1536, 864));
 	set(ddWinId, "Maximized", FALSE);

@@ -1,0 +1,71 @@
+License checkout took 0.036 sec
+License checkout took 0.023 sec
+Momentum MomEngine_64 2023.20.105 (*) built: Mar 10 2023
+Copyright  1992 - 2023 Keysight Technologies
+Simulation started on: Thu May 25 18:07:08 2023
+Simulation Mode: uW
+Substrate to be computed from 0.00354657 GHz to 0.6 GHz,
+                     and from 1 GHz to 10 GHz!
+Substrate calculation started
+.........|.........|.........|.........| 
+Substrate calculation finished
+Using the minimal snap distance of 0.0004 mm
+(4 layout resolution points) for layout healing.
+Layout simplification started
+.........|.........|.........|.........| 
+Layout simplification finished
+Generating mesh at 10 GHz...
+S-parameter simulation
+S-parameter simulation started
+...initializing
+...expanding thick conductors
+...extracting layout
+...analyzing ports
+...reducing mesh
+Automatic selection: direct compressed matrix solver
+Using multi-threading (12 threads)
+Matrix size: 20888 (reduced: 16381)
+
+--- WARNING -------------------------------------------------------------------
+
+The size of the minus pin for S-parameter port 1 is electrically large 
+above 0.901868 GHz, S-parameters may become unphysical.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+The distance between the layout pins for port 1 is electrically large 
+above 1.61924 GHz, S-parameters may become unphysical.
+
+-------------------------------------------------------------------------------
+Simulation temperature: 298.15 K
+Adaptive frequency sweep started
+Simulation frequency [1] = 0 Hz
+...loading Green functions
+...creating Basis sections
+...allocating interaction matrix
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [2] = 10 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:   0.0 % of frequency range covered
+Simulation frequency [3] = 8 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [4] = 6 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|........
