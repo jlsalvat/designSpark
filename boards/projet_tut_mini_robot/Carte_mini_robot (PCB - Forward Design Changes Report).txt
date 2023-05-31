@@ -1,0 +1,21 @@
+Forward Design Changes Report
+-----------------------------
+
+Report Written:     Wednesday, May 31, 2023
+Design Path:        F:\Documents\GitHub\designSpark\boards\projet_tut_mini_robot\Carte_mini_robot.pcb
+Design Title:       
+Created:            12/05/2023 21:05:44
+Last Saved:         19/05/2023 11:33:27
+Editing Time:       4483 min
+Units:              mm (precision 2)
+
+Disconnected pin "Vreg1.2" from net "VBATT_P".
+Disconnected pin "Vreg1.3" from net "VCC".
+Disconnected pin "Vreg1.1" from net "GND".
+
+Connected pin "Vreg1.3" to net "VBATT_P".
+Connected pin "Vreg1.2" to net "GND".
+Connected pin "Vreg1.1" to net "VCC".
+
+
+End Of Report.

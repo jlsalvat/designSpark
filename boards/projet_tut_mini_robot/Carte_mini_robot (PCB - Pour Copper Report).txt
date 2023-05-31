@@ -1,0 +1,18 @@
+Pour Copper Report
+------------------
+
+Report Written:     Wednesday, May 31, 2023
+Design Path:        F:\Documents\GitHub\designSpark\boards\projet_tut_mini_robot\Carte_mini_robot.pcb
+Design Title:       
+Created:            12/05/2023 21:05:44
+Last Saved:         31/05/2023 12:35:14
+Editing Time:       4484 min
+Units:              mm (precision 2)
+
+SV2.6 at 499.11,514.35 on layer Bottom Copper has no thermal spokes
+SV3.1 at 490.08,505.88 on layer Bottom Copper has no thermal spokes
+Vreg1.2 at 478.79,466.09 on layer Bottom Copper has no thermal spokes
+Q2.3 at 507.68,529.27 on layer Bottom Copper has no thermal spokes
+Via at 492.44,522.92 on layer Bottom Copper has no thermal spokes
+
+End Of Report.
