@@ -1,5 +1,7 @@
+
 #include <Arduino.h>
 #include "rgb_lcd.h"
+#include "SoftwareSerial.h"
 
 // choix du décodage
 #define DECODE_RC5
@@ -22,19 +24,22 @@
 //
 //                                 +-\/-+
 //                            VCC  1|    |14  GND
-//                   (D  0)  PB0  2|    |13  AREF (D 10)  TX
-//                  (D  1)  PB1  3|    |12  PA1  (D  9)  LED1
+//  BP               (D  0)  PB0  2|    |13  AREF (D 10)  TX
+//  LED              (D  1)  PB1  3|    |12  PA1  (D  9)  LED1
 //                          PB3  4|    |11  PA2  (D  8)  RX
-//  PWM  BP INT0   (D  2)  PB2  5|    |10  PA3  (D  7) LED2
-//  PWM  POT       (D  3)  PA7  6|    |9   PA4  (D  6) SCK
-//  PWM  MOSI      (D  4)  PA6  7|    |8   PA5  (D  5) MISO       PWM
+//  PWM  BP INT0   (D  2)  PB2  5|    |10  PA3  (D  7) IN_4P38
+//      Cmd_jack   (D  3)  PA7  6|    |9   PA4  (D  6) SCK
+//  PWM  MOSI      (D  4)  PA6  7|    |8   PA5  (D  5) MISO  TX
 //                               +----+
 const int LED = 1;
 const int BP = 0;
 const int IN_4P38 = 7;
-const int cmd_JACK = 3;
+const int cmd_JACK = 3; 
+const int TX= 5; // broche MISO
+const int RX = 8;
 
 rgb_lcd lcd;
+SoftwareSerial mySerial(RX, TX); // RX, TX
 
 void setup()
 {
@@ -42,19 +47,23 @@ void setup()
   // put your setup code here, to run once:
   pinMode(LED, OUTPUT);
   pinMode(cmd_JACK, OUTPUT);
+  digitalWrite(cmd_JACK, 1);
   pinMode(BP, INPUT_PULLUP);
   lcd.begin(16, 2);
   lcd.setPWM(GREEN, 100);
   // Print a message to the LCD.
   lcd.print("hello, world!");
+  mySerial.begin(9600);
+  mySerial.print("hello world!");
+
   delay(1000);
 }
 
 void loop()
 {
   int touche = 0;
-  //test pour debug
-  int bp=digitalRead(BP);
+  // test pour debug
+  int bp = digitalRead(BP);
   digitalWrite(LED, !bp);
   /*
    * Check if received data is available and if yes, try to decode it.
@@ -71,6 +80,8 @@ void loop()
     lcd.print("Commande=");
     int command = IrReceiver.decodedIRData.command;
     lcd.print(command);
+    mySerial.print("commande=");
+    mySerial.println(command);
     lcd.setCursor(0, 1);
     lcd.print("Touche");
     // on peut ajouter d'autres touches si on veut...
@@ -89,12 +100,15 @@ void loop()
     lcd.print(touche);
     // a chaque code on allume la led pendant 200ms
     digitalWrite(LED, 1); // on allume la led
-    delay(200);
+    digitalWrite(cmd_JACK, 0);// on ouvre le jack (départ sans jack)
+    delay(2000);// on allume 2 s, quel que soit le code envoyé
     digitalWrite(LED, LOW);
-    // si on a le bon code on ferme le transistor de commande, c'est à tester
+    digitalWrite(cmd_JACK, 1);
+/*    // si on a le bon code on ferme le transistor de commande, c'est à tester
     if (IrReceiver.decodedIRData.command == 0x10)
-      digitalWrite(cmd_JACK, 1);
-    else
       digitalWrite(cmd_JACK, 0);
+    else
+      digitalWrite(cmd_JACK, 1);
+*/
   }
 }
