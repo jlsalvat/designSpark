@@ -1,0 +1,17 @@
+Schematic and PCB Check Report
+------------------------------
+
+Report Written:     Wednesday, May 31, 2023
+Design Path:        C:\Users\Biegel\OneDrive\Bureau\ATTINY\RC5_attiny.pcb
+Design Title:       
+Created:            30/05/2023 17:16:23
+Last Saved:         31/05/2023 09:29:15
+Editing Time:       967 min
+Units:              mm (precision 2)
+
+
+Checking integrity of Schematic "C:\Users\Biegel\OneDrive\Bureau\ATTINY\RC5_attiny.sch" with PCB "C:\Users\Biegel\OneDrive\Bureau\ATTINY\RC5_attiny.pcb"
+========================================================================================================================================================
+
+
+End Of Report.

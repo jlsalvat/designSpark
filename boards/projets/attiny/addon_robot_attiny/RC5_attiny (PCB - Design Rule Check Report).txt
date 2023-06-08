@@ -1,0 +1,70 @@
+Design Rule Check Report
+------------------------
+
+Report Written:     Wednesday, May 31, 2023
+Design Path:        C:\Users\Biegel\OneDrive\Bureau\ATTINY\RC5_attiny.pcb
+Design Title:       
+Created:            30/05/2023 17:16:23
+Last Saved:         31/05/2023 09:29:15
+Editing Time:       969 min
+Units:              mm (precision 2)
+
+
+Results
+=======
+
+Track to Pad Error (T-P) between (485.96 545.85) and (485.27 545.85) on Layer "Bottom Copper".
+    Error between Component Pad U3.5 (Net 'pwm_MOT1') and Track (Net 'GND'), Gap is 0.49 needs to be 0.50.
+Single pin net CMD_light on U3.11 at 483.87,553.47
+Single pin net pwm_MOT1 on U3.5 at 486.41,545.85
+
+Number of errors found : 3
+
+
+Settings
+========
+
+
+Spacings
+
+=========
+
+Tracks        Yes
+Pads and Vias Yes
+Shapes        Yes
+Text          Yes
+Board         Yes
+Drills        Yes
+Components    No
+
+
+Manufacturing
+
+==============
+
+Drill Breakout                  No
+Drill Backoff                   No
+Silkscreen Overlap              No
+Copper Text In Board            No
+Min Track Width                 No
+Min Annular Ring                No
+Min Paste Size                  No
+Vias In Pads                    No
+Unplated Vias                   No
+Unplated Pads With Inner Tracks No
+
+
+Nets
+
+=====
+
+Net Completion               Yes
+Dangling Tracks              Yes
+Net Track Length Differences No
+Nets without Components      No
+Nets on No Connect pins      No
+Nets on No Connect pins      No
+
+
+
+End Of Report.

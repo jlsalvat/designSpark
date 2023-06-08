@@ -1,0 +1,34 @@
+"Report Written:,""Wednesday, June 07, 2023"""
+"Design Path:,""F:\Documents\GitHub\designSpark\boards\projets\attiny\addon_robot_attiny\RC5_attiny.pcb"""
+Design Title:,
+"Created:,""30/05/2023 17:16:23"""
+"Last Saved:,""31/05/2023 09:41:12"""
+"Editing Time:,""978 min"""
+"Units:,""mm (precision 2)"""
+
+Bill of Materials generated with DesignSpark PCB - www.DesignSpark.com/pcb
+--------------------------------------------------------------------------
+
+
+"Ref Name,""Qty"",""Component"",""Value"",""Package"",""Manufacturer"",""MPN"",""RS Part Number"",""Other Part Number"",""Description"""
+"R20,""1"",""1k"","""",""DSC"","""","""","""","""","""""
+"R21,""1"",""1k"","""",""DSC"","""","""","""","""","""""
+"R23,""1"",""1k5"","""",""DSC"","""","""","""","""","""""
+"R28,""1"",""1k5"","""",""DSC"","""","""","""","""","""""
+"D1,""1"",""1N4148"","""",""DSC"","""","""","""","""","""""
+"R18,""1"",""10k"","""",""DSC"","""","""","""","""","""""
+"R19,""1"",""10k"","""",""DSC"","""","""","""","""","""""
+"R22,""1"",""10k"","""",""DSC"","""","""","""","""","""""
+"C4,""1"",""10uF_polarisé"","""",""DSC"","""","""","""","""","""""
+"Vreg1,""1"",""78L05ACZ"","""",""DSC"","""","""","""","""","""""
+"C5,""1"",""100nF"","""",""DSC"","""","""","""","""","""""
+"R17,""1"",""330_Ohm"","""",""DSC"","""","""","""","""","""""
+"U3,""1"",""attiny84"","""",""DIL"",""Microchip"",""ATtiny84A"",""133-1667"","""",""microcontroleur 8k flash"""
+"Q3,""1"",""BS170"","""",""DSC"","""","""","""","""",""N-channel MOSFET"""
+"X1,""1"",""CON Bornier 02Ps"","""",""W237-132"","""","""","""","""",""WAGO SREW CLAMP"""
+"SV2,""1"",""CON HE10-06p droit"","""",""ML6"","""","""","""","""",""HARTING"""
+"CONN5,""1"",""CONN-2-ligne"","""",""DIL"","""","""","""","""",""barrette secable"""
+"CONN1,""1"",""CONN_SIL_3"","""",""DIL"","""","""","""","""",""barrette secable"""
+"SV3,""1"",""CON_GROVE_coudé"","""",""S04P"","""","""","""","""",""GROVE CONNECTOR"""
+"LED6,""1"",""LED 3MM GREEN"","""",""LED_GREEN"","""","""","""","""","""""
+"SW1,""1"",""SWITCH-MOMENTARY-2PTH"","""",""TACTILE-PTH"","""","""","""","""","""""

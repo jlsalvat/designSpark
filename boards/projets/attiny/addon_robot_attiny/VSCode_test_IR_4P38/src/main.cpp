@@ -53,6 +53,9 @@ void setup()
 void loop()
 {
   int touche = 0;
+  //test pour debug
+  int bp=digitalRead(BP);
+  digitalWrite(LED, !bp);
   /*
    * Check if received data is available and if yes, try to decode it.
    * Decoded result is in the IrReceiver.decodedIRData structure.
