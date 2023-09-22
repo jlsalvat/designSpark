@@ -111,4 +111,43 @@ void loop()
       digitalWrite(cmd_JACK, 1);
 */
   }
+#include <stdio.h>
+#define TAILLE 7
+int gTabSecret[TAILLE]={0,0,0,1,0,1,1};
+
+int BateauPresent(int position){
+    return(gTabSecret[position]);
+}
+int BateauCoule (int position){
+    gTabSecret[position]=0;
+}
+int BateauFinPartie(){
+    for(int i=0;i<TAILLE;i++)
+        if(gTabSecret[i]==1)
+            return 0;
+    return 1;
+}
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char szSrc[80]="Bonjour";
+    char szDest[80]="Bonjour a tous";
+    printf("longueur de szSrc : %d\n",strlen(szSrc));
+    printf("longueur de szDest : %d\n",strlen(szDest));
+    if(strcmp(szSrc,szDest)==0)
+        printf("chaines identiques\n");
+    else
+        printf("chaines differentes\n");
+    strcpy(szDest, szSrc);
+    printf("apres copie de szSrc vers szDest\n");
+    printf("longueur de szSrc : %d\n",strlen(szSrc));
+    printf("longueur de szDest : %d\n",strlen(szDest));
+    if(strcmp(szSrc,szDest)==0)
+        printf("chaines identiques\n");
+    else
+        printf("chaines différentes\n");
+    return 0;
 }

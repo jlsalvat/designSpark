@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "test_ssd1308",
+			"path": "../../../../../../../PlatformIO/Projects/test_ssd1308"
+		}
+	],
+	"settings": {}
+}
