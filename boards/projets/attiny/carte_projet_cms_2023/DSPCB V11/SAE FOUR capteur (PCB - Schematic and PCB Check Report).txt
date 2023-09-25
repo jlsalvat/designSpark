@@ -1,0 +1,17 @@
+Schematic and PCB Check Report
+------------------------------
+
+Report Written:     Monday, September 25, 2023
+Design Path:        F:\Documents\GitHub\designSpark\boards\projets\attiny\carte_projet_cms_2023\DSPCB V11\SAE FOUR capteur.pcb
+Design Title:       
+Created:            22/09/2023 11:22:42
+Last Saved:         22/09/2023 17:36:47
+Editing Time:       379 min
+Units:              mm (precision 2)
+
+
+Checking integrity of Schematic "F:\Documents\GitHub\designSpark\boards\projets\attiny\carte_projet_cms_2023\DSPCB V11\SAE FOUR capteur.sch" with PCB "F:\Documents\GitHub\designSpark\boards\projets\attiny\carte_projet_cms_2023\DSPCB V11\SAE FOUR capteur.pcb"
+==================================================================================================================================================================================================================================================================
+
+
+End Of Report.
