@@ -1,13 +1,16 @@
 Pour Copper Report
 ------------------
 
-Report Written:     Monday, September 25, 2023
+Report Written:     Thursday, October 26, 2023
 Design Path:        F:\Documents\GitHub\designSpark\boards\projets\attiny\carte_projet_cms_2023\DSPCB V11\SAE FOUR capteurV1.pcb
 Design Title:       
 Created:            22/09/2023 11:22:42
-Last Saved:         25/09/2023 17:15:18
-Editing Time:       397 min
+Last Saved:         26/10/2023 14:03:51
+Editing Time:       410 min
 Units:              mm (precision 2)
 
+U2.4 at 228.75,227.01 on layer Top Copper has no thermal spokes
+U2.7 at 232.74,228.31 on layer Top Copper has no thermal spokes
+J1.4 at 208.13,221.16 on layer Top Copper has no thermal spokes
 
 End Of Report.
