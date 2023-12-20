@@ -1,0 +1,28 @@
+"Report Written:,""Tuesday, June 20, 2023""";;;;;;;;;
+"Design Path:,""C:\Users\mranc\OneDrive - Université Nice Sophia Antipolis\Documents\mranc\PCB\enseignant\ampli classD\V2\test.pcb""";;;;;;;;;
+Design Title:,;;;;;;;;;
+"Created:,""15/06/2023 11:31:43""";;;;;;;;;
+"Last Saved:,""16/06/2023 09:16:26""";;;;;;;;;
+"Editing Time:,""226 min""";;;;;;;;;
+"Units:,""mm (precision 3)""";;;;;;;;;
+;;;;;;;;;
+Bill of Materials generated with DesignSpark PCB - www.DesignSpark.com/pcb;;;;;;;;;
+--------------------------------------------------------------------------;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+Ref Name;Qty;Component;Value;Package;Manufacturer;MPN;RS;;
+C2;1;1uF_cms;;SM;;;;;
+C3;1;1uF_cms;;SM;;;;;
+C4;1;1uF_cms;;SM;;;;;
+C5;1;1uF_cms;;SM;;;;;
+C6;1;1uF_cms;;SM;;;;;
+R1;1;3k0_cms;;SM;;;;;
+C1;1;47uF_cms_35V_rond;;SM;;;;;
+U1;1;74HCT04;;SOL;;;;;Inverter
+D1;1;BYS10;;SOD106A;;;;;DIODE
+D2;1;BYS10;;SOD106A;;;;;DIODE
+CONN1;1;CONN-6-ligne;;DIL;;;;;barrette secable 5
+IC2;1;FDS8949;;SOIC127P600X175-8N;Fairchild Semiconductor;;;;
+IC3;1;FDS8949;;SOIC127P600X175-8N;Fairchild Semiconductor;;;;
+IC1;1;HIP4082IBZ;;SOIC;;;921-5462P;;Driver mos
+IC4;1;L7805;;SM;;;714-0657;;Régulateur V
