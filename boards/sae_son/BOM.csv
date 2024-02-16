@@ -1,0 +1,14 @@
+Bill of Materials generated with DesignSpark PCB - www.DesignSpark.com/pcb;;;;;
+--------------------------------------------------------------------------;;;;;
+;;;;;
+;;;;;
+Ref Name;Qty;Component;Package;RS;Description
+C2,C3,C4,C5,C6;5;1uF_cms;SM;;condensateur  MLCC 0805 ou 1206
+R1;1;3k0_cms;SM;;resistance 0805 ou 1206
+C1;1;47uF_cms_35V_rond;SM;708-3465;condensateur electrolyte aluminium 47uF 35V 
+U1;1;74HCT04;SOL;;Inverter CMOS
+D1,D2;2;BYS10;SOD106A;;diode schottky 45V/1,5A
+CONN1;1;CONN-6-ligne;DIL;;barrette secable 5
+IC2,IC3;2;FDS8949;SOIC127P600X175-8N;;NMOS double 40V/6A
+IC1;1;HIP4082IBZ;SOIC;921-5462P;Driver mos
+IC4;1;L7805;SM;714-0657;Régulateur V
